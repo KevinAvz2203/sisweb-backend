@@ -9,6 +9,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      // Relacion con Order mediante OrderProduct
+      // this.belongsToMany(models.Order, { through: OrderProduct });
     }
   }
   // Comentario para push
