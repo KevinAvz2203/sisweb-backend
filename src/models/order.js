@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "user_id",
       });
       // Relacion con products mediante OrderProduct
-      // this.belongsToMany(models.Product, { through: OrderProduct });
+      this.belongsToMany(models.Product, { through: "OrderProduct" });
     }
   }
   Order.init(

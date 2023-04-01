@@ -5,7 +5,7 @@ import {
   getUserById,
   deleteUser,
   updateUser,
-} from "../controlers/productControler";
+} from "../controlers/userControler";
 
 const productRouter = Router();
 
